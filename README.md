@@ -4,7 +4,7 @@ This is a modern JS skeleton for [Brunch](http://brunch.io).
 
 ## Installation
 
-Clone this repo manually or use `brunch new skel -s brunch/modern-js-skeleton`
+Clone this repo manually or use `brunch new skel -s brunch/es6-skeleton`
 
 ## Getting started
 
