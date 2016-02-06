@@ -19,3 +19,10 @@ Clone this repo manually or use `brunch new dir -s brunch/es6-skeleton`
     * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
     * Place static files you want to be copied from `app/assets/` to `public/`.
     * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
+
+## ES7
+
+To use proposed JS features not included into ES6, do this:
+
+* `npm install --save babel-preset-stage-0`
+* in `brunch-config.js`, add the preset: `presets: ['es2015', 'stage-0']`
