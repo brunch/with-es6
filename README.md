@@ -24,5 +24,5 @@ Clone this repo manually or use `brunch new dir -s brunch/brunch-with-es6`
 
 To use proposed JS features not included into ES6, do this:
 
-* `npm install --save babel-preset-stage-0`
+* `npm install --save-dev babel-preset-stage-0`
 * in `brunch-config.js`, add the preset: `presets: ['es2015', 'stage-0']`
