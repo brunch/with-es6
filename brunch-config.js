@@ -1,15 +1,14 @@
-module.exports = {
-  files: {
-    javascripts: {
-      joinTo: {
-        'vendor.js': /^(?!app)/,
-        'app.js': /^app/
-      }
-    },
-    stylesheets: {joinTo: 'app.css'}
+// See http://brunch.io for documentation.
+exports.files = {
+  javascripts: {
+    joinTo: {
+      'vendor.js': /^(?!app)/, // Files that are not in `app` dir.
+      'app.js': /^app/
+    }
   },
+  stylesheets: {joinTo: 'app.css'}
+};
 
-  plugins: {
-    babel: {presets: ['es2015']}
-  }
+exports.plugins = {
+  babel: {presets: ['latest']}
 };
