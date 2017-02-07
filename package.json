@@ -1,7 +1,8 @@
 {
-  "name": "your-app",
-  "description": "Description",
-  "author": "Your Name",
+  "name": "brunch-app",
+  "description": "Brunch.io application",
+  "private": true,
+  "author": "Brunch",
   "version": "0.0.1",
   "repository": "",
   "scripts": {
