@@ -25,4 +25,4 @@ Clone this repo manually or use `brunch new dir -s es6`
 To use proposed JS features not included into ES6, do this:
 
 * `npm install --save-dev babel-preset-stage-0`
-* in `brunch-config.js`, add the preset: `presets: ['latest', 'stage-0']`
+* in `brunch-config.js`, add the preset: `presets: ['env', 'stage-0']`
